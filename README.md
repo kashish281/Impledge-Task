@@ -28,6 +28,15 @@
 
 I used an **unordered_set** to store the list of words that allows for O(1) average-time complexity for lookups. It is crucial because it enables fast checking to see if a substring or a word exists in the list, which is fundamental for identifying compound words.
 
+# Output Screenshots:
+1. **Output for text file-01:**
+   
+   ![Output-1](https://github.com/kashish281/Impledge-Task/blob/main/Output-1.png)
+
+2. **Output for text file-02:**
+   
+   ![Output-2](https://github.com/kashish281/Impledge-Task/blob/main/Output-2.png)
+
 
 
 
