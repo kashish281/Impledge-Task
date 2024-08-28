@@ -33,7 +33,7 @@ I used an **unordered_set** to store the list of words that allows for O(1) aver
 
 The best aspect of this program is its quick execution. It efficiently processes the input and returns results rapidly, making it well-suited for handling large lists of words.
 
-# Output Screenshots:
+## Output Screenshots:
 1. **Output for text file-01:**
    
    ![Output-1](https://github.com/kashish281/Impledge-Task/blob/main/Output-1.png)
@@ -42,6 +42,11 @@ The best aspect of this program is its quick execution. It efficiently processes
    
    ![Output-2](https://github.com/kashish281/Impledge-Task/blob/main/Output-2.png)
 
+  -------------------------------------------------------
+ 
+## Special Thanks
+
+I would like to extend my gratitude to **Impledge Technologies** for giving me the opportunity to work on this project as a part of their Qualifier Round assignment. I appreciate the time and effort they took to evaluate my skills and provide me with a chance to showcase my abilities. Thank you for the experience.
 
 
 
