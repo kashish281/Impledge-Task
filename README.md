@@ -17,16 +17,18 @@
 
 ->In this program we have to find the longest and second-longest compound words. A compound word is defined as a word that can be constructed by concatenating two or more smaller words from the same list.
 
+-> The program uses dynamic programming with memoization to efficiently check if a word is a compound word. The memoization technique stores results of subproblems to avoid redundant computations, enhancing the performance.
+
 ->To do this, the program first will read all the words from the file and stores them in a vector. It then uses an unordered_set to efficiently check if parts of a word exist in the list. The core logic is handled by a recursive function that attempts to break down each word into valid subwords, identifying compound words along the way.
 
-->I have designed this using fast lookups and recursion to ensure it can handle large lists of words. It also measures the time taken to process the file, providing a clear indication of its efficiency. This simple approach allows the program to quickly identify and display the longest compound words in the list.
+->I have designed this using fast lookups. It also measures the time taken to process the file, providing a clear indication of its efficiency. This simple approach allows the program to quickly identify and display the longest compound words in the list.
 
 -------------------------------------------------------
 
 
 **Approach Used:**
 
-I used an **unordered_set** to store the list of words that allows for O(1) average-time complexity for lookups. It is crucial because it enables fast checking to see if a substring or a word exists in the list, which is fundamental for identifying compound words.
+I used the concept of **Dynamic Programming** and **unordered_set** to store the list of words that allows for O(1) average-time complexity for lookups. It is crucial because it enables fast checking to see if a substring or a word exists in the list, which is fundamental for identifying compound words.
 
 
 **Conclusion:**
